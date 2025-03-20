@@ -30,22 +30,12 @@ __pycache__/
 # Ignore IDE-specific files
 .vscode/
 .idea/
-```
-
-Common .gitignore files for different technologies.
-```
-# Python  
-__pycache__/  
-*.pyc  
-
-# Node.js  
-node_modules/  
-.env  
 
 # Java  
 *.class  
 *.jar  
 ```
+
 
 How to Use .gitignore?
 
