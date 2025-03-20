@@ -12,7 +12,8 @@ Git is a version control system that helps you track changes in your code. Think
        Git records every modification, allowing you to go back to previous versions if needed.
 
   3. Branching & Merging:
-      You can create separate branches to work on different features or fixes and later merge them into the main project.
+
+     You can create separate branches to work on different features or fixes and later merge them into the main project.
 
   4. Collaboration:
 
