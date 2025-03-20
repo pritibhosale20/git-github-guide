@@ -154,3 +154,46 @@
         git remote -v → Lists remote repositories
         git remote add origin <url> → Adds a remote repository
 
+
+🔹 Summary Table
+
+init:	      Initialize a repository
+
+clone:	      Copy a repository from remote
+
+status:	      Show current file status
+
+add:	      Stage files for commit
+
+commit:	      Save changes to the repository
+
+log:	      View commit history
+
+branch:	      Create or list branches
+
+checkout:     Switch branches or restore files
+
+merge:	      Combine branches
+
+push:	      Upload changes to remote repo
+
+pull:	      Download and merge remote changes
+ 
+fetch:	      Download changes without merging
+
+reset:	      Undo changes
+
+revert:	      Undo a commit with a new commit
+
+stash:	      Save changes temporarily
+
+cherry-pick:  Apply a specific commit
+
+rebase:	      Rewrite commit history
+
+tag:	      Mark a version
+
+clean:	      Remove untracked files
+
+remote:	      Manage remote repositories    
+
