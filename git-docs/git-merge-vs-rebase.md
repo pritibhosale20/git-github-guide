@@ -8,6 +8,12 @@ Creates a new commit
 
 Best for public branches	
 
+Example of Merge:
+```
+git checkout main
+git merge feature-branch
+```
+
 🔹 Rebase
 
 Rewrites history
@@ -15,12 +21,6 @@ Rewrites history
 Moves commits linearly
 
 Best for private branches
-
-Example of Merge:
-```
-git checkout main
-git merge feature-branch
-```
 
 Example of Rebase:
 ```
