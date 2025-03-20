@@ -25,7 +25,9 @@ git log --oneline --graph --all   # Compact commit history
 ```
 
 🔄 Working with Remote Repositories
+
 Commands to push, pull, and fetch updates from a remote repository.
+
 5. Connecting & Updating Remote Repos
 ```
 git remote add origin <repo_url>   # Connect to a remote repository
@@ -40,6 +42,7 @@ git push -u origin main   # Push and set upstream tracking for the branch
 ```
 
 🌿 Branching & Merging
+
 7. Working with Branches
 ```
 git branch   # List all branches
@@ -56,6 +59,7 @@ git merge --no-ff <branch_name>   # Merge with a commit history
 ```
 
 🚀 Advanced Git Commands
+
 9. Undoing & Reverting Changes
 ```
 git checkout -- <file>   # Discard changes in a file
@@ -81,6 +85,7 @@ git commit -m "Resolved merge conflict"   # Commit resolved conflict
 ```
 
 💡 Additional Useful Commands
+
 12. Tagging Releases
 ```
 git tag <tag_name>   # Create a tag
@@ -103,6 +108,7 @@ git clean -f   # Force delete untracked files
 🔄 Git Rebase & Cherry-Pick
 
 Advanced commands to manage commits efficiently.
+
 15. Rebasing Commits
 ```
 git rebase <branch_name>   # Reapply commits from one branch onto another
@@ -125,21 +131,37 @@ git config --global alias.lg "log --oneline --graph --all"
 ```
 
 🔥 Summary 
+
 Command	Description:
+
 git init:	Initialize a repository
+
 git clone <repo_url>:	Clone a repository
+
 git status:	Check current repo status
+
 git add <file>:	Stage a file
+
 git commit -m "msg":	Commit changes
+
 git log:	View commit history
+
 git branch <name>:	Create a new branch
+
 git checkout <branch>:	Switch branches
+
 git merge <branch>:	Merge a branch
+
 git pull origin <branch>:	Fetch & merge changes
+
 git push origin <branch>:	Push changes to remote
+
 git reset --hard HEAD~1:	Undo last commit (permanently)
+
 git stash:	Temporarily save changes
+
 git rebase <branch>:	Move commits to a different base
+
 git cherry-pick <commit>:	Apply a specific commit
 
 
